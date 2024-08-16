@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body id="bodyl">
+    <header>
+        <nav>
+            <a href="index.html" id="home">Home</a>
+            <a href="cadastro.html" id="cadastro">Cadastro</a>
+            <a href="login.html" id="login">Login</a>
+            
+            
+        </nav>
+    </header>
+    <main class="dlogin">
+        <form><br>
+            <label for="login">Login</label><br>
+    <input type="text" id="login" name="login" required><br>    <!-- id para coletar dentro do input  -->
+
+    <label for="senha">Senha</label><br>
+    <input type="password" id="senha" name="senha" required><br>
+
+    <button id="entraBtn" onclick="log()">Entrar</button><br><br>  <!-- Evento onclick ao clicar no btn  -->
+
+    <a href="cadastro.html" id="rec">Esqueceu a senha ou não é cadastrado?</a>
+    </main>
+    <footer>
+        <div class="frase1">
+            <h1>Protegendo sua empresa <br>com tecnologia e confiança.</h1>
+        </div>
+        <div class="info1">
+            <h3>Desenvolvido por:</h3> <br>
+            <p>Yuri Fernandes</p>
+            <p>Pedro de Almeida</p>
+            <p>Rio de Janeiro, RJ, República Federativa do Brasil.</p>
+        </div>
+        <div class="info2">
+            @Zephyr Corporation Ltda. Todos os direitos reservados
+        </div>
+    </footer>
+    <script src="js/login.js"></script>
+</body>
+</html>

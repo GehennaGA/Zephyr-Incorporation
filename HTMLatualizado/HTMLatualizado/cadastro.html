@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zephyr CyberSecurity</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="bodyc">
+
+    <header>
+        <nav>
+            <a href="index.html" id="home">Home</a>
+            <a href="cadastro.html" id="cadastro">Cadastro</a>
+            <a href="login.html" id="login">Login</a>
+            
+            
+        </nav>
+    </header>  <!--  formulario de cadastro  -->
+    <div class="titulo">Cadastro</div><br><br>
+    <form id="cadastroForm" action="#" method="post">
+        <br><label for="username">Nome Completo:</label><br>
+        <input type="text" id="username" name="username" required><br>
+        <span id="usernameError" class="error"></span>
+        <br><label for="fullname" id="">Como deseja ser chamado(a):</label><br>
+        <input type="text" id="nome" name="fullname" required><br>        <!-- id = nome para ler o valor dentro do input no javascript  -->
+        <span id="fullnameError" class="error"></span>
+    <!--  
+        <br><label for="password">Senha:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <span id="passwordError" class="error"></span>
+-->  
+
+        <br><label for="gender">Gênero no qual se identifica:</label><br>
+        <select id="gender" name="gender">
+            <option value="M">Masculino</option>
+            <option value="F">Feminino</option>
+            <option value="O">Outro</option>
+        </select><br>
+        <br><label for="dob">Data de Nascimento:</label><br>
+        <input type="date" id="dob" name="dob" required><br>
+        <span id="dobError" class="error"></span>
+        <br><label for="email">Email para contato:</label><br>
+        <input type="email" id="email" name="email" required placeholder="Opcional"><br>
+        <span id="emailError" class="error"></span>
+        
+        <!----<br><label for="cnpj">CNPJ:</label><br>
+        <input type="text" id="cnpj" name="cnpj" required placeholder="Opcional"><br>
+        <span id="cnpjError" class="error"></span> -->
+        <br><label for="uf">Unidade Federativa:</label><br>
+        <select id="uf" name="uf">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select><br><br>
+        <button id="entraBtn" onclick="cadastro()">Gerar</button> <br><br>  <!-- evento onclick  para quando o usuario clicar no butao (função cadastro)  -->
+    </form>
+    <br><br>
+    <div class="folder">
+        <footer>
+            <div class="frase1">
+                <h1>Protegendo sua empresa <br>com tecnologia e confiança.</h1>
+            </div>
+            <div class="info1">
+                <h3>Desenvolvido por:</h3> <br>
+                <p>Yuri Fernandes</p>
+                <p>Pedro de Almeida</p>
+                <p>Rio de Janeiro, RJ, República Federativa do Brasil.</p:>
+            </div>
+            <div class="info2">
+                @Zephyr Corporation Ltda. Todos os direitos reservados
+            </div>
+        </footer>
+    </div>
+    <script src="js/cadastro.js"></script>
+</body>
+</html>

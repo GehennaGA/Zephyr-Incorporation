@@ -1,0 +1,351 @@
+/* Reset de configuração de páginas*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 5px;
+    background-color: rgb(19, 18, 18);
+}
+
+/* Barra de Navegação */
+
+nav {
+    display: flex;
+    justify-content: center; /* Para centralizar horizontalmente */
+    align-items: center; /* Para centralizar verticalmente */
+    height: 30px; /* Ajuste a altura conforme necessário */
+    background-color: black;
+    cursor: pointer;
+
+}
+/* section hover nas barras */
+#home:hover{
+    color: #0097B2;
+    transition: 0.5s;
+    font-size: 28px;
+    
+}
+#cadastro:hover{
+    color: #0097B2;
+    transition: 0.5s;
+    font-size: 28px;
+    
+}
+#login:hover{
+    color: #0097B2;
+    transition: 0.5s;
+    font-size: 28px;
+}
+#sobre:hover{
+    color: #0097B2;
+    transition: 0.5s;
+    font-size: 28px;
+}
+#ajuda:hover{
+    color: #0097B2;
+    transition: 0.5s;
+    font-size: 28px;
+}
+
+
+/* Estilize seus links conforme necessário */
+nav a {
+    margin: 0 10px; /* Adicione margens entre os links conforme necessário */
+    text-decoration: none; /* Remove sublinhado padrão */
+    color: #f7f7f7; /* Cor do texto */
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+
+
+/* Estelizando o banner*/
+
+.log img{
+    margin-top: 2px;
+    width: 100%; /* largura em 100% em porcentagem para nao estender*/
+    border-radius: 10px;
+}
+
+
+/* estilizando as informações*/
+
+.informacao1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.informacao1 p{
+    margin-top: 7%;
+    color: white;
+    font-size: 17px;
+    width: 370px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#informacao1{
+    margin-top: 5%;
+    color: #0097B2;
+    align-items: center;
+    margin-left: 3%;
+}
+
+/*coonfiguracao de inmagem */
+.imgseg1 img{
+    width: 550px;
+    margin-left: 10%;
+    border-radius: 10px;
+    
+    
+}
+
+
+/*Informacao 2*/
+.informacao2 {
+    display: flex;
+    text-align: center; /* Alinhar verticalmente */
+}
+
+#img2 {
+    width: 550px;
+    margin-right: 10%;
+    border-radius: 10px;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
+.informacao2 p {
+    width: 450px;
+    color: white;
+    margin-left: 12%;
+    margin-top: 10%;
+    font-size: 17px;
+
+}
+footer{
+    background-color: black;
+    padding: 10px;
+}
+.frase1{
+    background-color: black;
+    color: #0097B2;
+    text-align: center;
+}
+.info1{
+    color: white;
+}
+.info2{
+    color: white;
+    text-align: center;
+}
+
+
+
+                        /*Secao de cadastro*/
+
+.titulo{
+    color: #0097B2;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+#cadastroForm{
+    background-color: white;
+    border: 3px solid #0097B2;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    
+}
+input{
+    width: 300px;
+    height: 25px ;
+    border-radius: 4px;
+    
+}
+input:hover{
+    width: 300px;
+    height: 25px ;
+    border-radius: 4px;
+    border: 4px solid #0097B2 ;
+   
+}
+label{
+    margin-bottom: 2px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+#btn{
+    width: 150px;
+    height: 25px;
+    margin-bottom: 2%;
+}
+
+#bodyc{
+    background-image: url(../img/seg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ 
+                                   /*Login*/
+.container{
+    border: 2px solid #0097B2;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    
+}
+.container input{
+    width: 100%;
+
+}
+#btn2{
+    margin-top: 2%;
+    width: 80px;
+    text-align: center;
+}
+#bodyl{
+    background-image: url(../img/patualizado.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.dlogin {
+    
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura da seção como 100% da altura da janela */
+}
+.dlogin form {
+    background-color: white;
+    width: 350px;
+    height: 220px;
+    text-align: center; /* Alinha o conteúdo do formulário ao centro */
+    border: 4px solid #0097B2;
+    border-radius: 10px;
+}
+
+#entraBtn{
+    margin-top: 8px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+#entraBtn:hover{
+    margin-top: 8px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #0097B2 ;
+    color: white;
+    transition: 0.5s;
+    
+}
+#rec{
+    text-decoration: none;
+    color: #0097B2;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pacotes-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 250px;
+    
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: auto;    
+    width: 550px;
+    text-align: center;
+    
+}
+.card:hover{
+    background-color: white;
+    border: 4px solid black;
+    box-shadow: 2px 4px 100px black;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: auto;    
+    width: 655px;
+    text-align: center;
+    
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.card p {
+    color: #666;
+}
+
+#papel {
+    background-image: url(../img/papel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%; /* Para ocupar toda a largura do elemento pai */
+    height: 100%; /* Para ocupar toda a altura do elemento pai */
+}
+
+#contratar{
+    
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #0097B2;
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+#contratar:hover{
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    transition: 0.7s;
+    
+}
